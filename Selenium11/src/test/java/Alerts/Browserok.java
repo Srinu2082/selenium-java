@@ -24,7 +24,7 @@ public class Browserok {
 	@Test
 	public void alert() throws InterruptedException
 	{
-		  driver.findElement(By.id("searchBtn")).click();
+	      driver.findElement(By.id("searchBtn")).click();
 	      String value = driver.switchTo().alert().getText();
 	      System.out.println(value);
 	      Thread.sleep(3000);
